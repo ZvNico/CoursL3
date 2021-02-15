@@ -1,7 +1,5 @@
 package TP1;
 
-import javax.imageio.ImageReader;
-
 public class Vehicule {
     static int nombre = 0;
     private String marque;
