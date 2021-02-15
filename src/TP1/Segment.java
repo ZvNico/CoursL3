@@ -13,6 +13,10 @@ public class Segment {
         System.out.println(toString());
     }
 
+    public Point getPoint1() {
+        return new Point(point1);
+    }
+
     public double longueur() {
         return point1.distance(point2);
     }
@@ -20,6 +24,4 @@ public class Segment {
     public String toString() {
         return "[" + point1.toString() + " " + point2.toString() + "]";
     }
-
-
 }
