@@ -21,7 +21,7 @@ public class Compteur {
         compteur.add(150);
         System.out.println(compteur);
     }
-
+    
     public Compteur() {
         total = 0;
         partiel = 0;

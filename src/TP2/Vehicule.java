@@ -1,5 +1,6 @@
 package TP2;
 
+
 public class Vehicule {
     private static int registre = 0;
     private int immat;

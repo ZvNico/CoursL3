@@ -2,7 +2,7 @@ package zoo;
 
 import java.util.ArrayList;
 
-public class Utilisation {
+public class Utilisation{
     public static void main(String[] args) {
         Animal animal = new Animal(65, "foxy");
         Chien chien1 = new Chien(30, "snowy", "Georges Dupont");
